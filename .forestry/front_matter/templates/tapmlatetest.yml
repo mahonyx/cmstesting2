@@ -1,4 +1,14 @@
 ---
 label: tapmlatetest
 hide_body: true
-fields: []
+fields:
+- name: numberfield_test
+  type: number
+  label: numberfield test
+  description: testing the number field
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
